@@ -1,0 +1,54 @@
+<html>
+	<header>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<title>To-do List</title>
+	</header>
+	<body>
+		<div class="container">
+  		<!-- Content here -->
+  			<div class="row" align="center">
+			    <div class="col">
+			      <h1>TO-DO LIST</h1></br>
+			      <div class="form-group">
+				    <input type="email" class="form-control form-control-lg" id="data" placeholder="Please type here to add new item to your list..." required></br>
+				    <h5 class="message">Please fill in the gap!</h5></br>	
+				    <button type="button" id="add" class="btn btn-primary btn-lg">ADD</button></br></br>
+  					</div>
+			    </div>
+			</div>
+			<div class="row" align="center">
+				<div class="col">
+					<table class="table table-striped newData">
+					  <thead>
+					    <tr>
+					      <th scope="col">#</th>
+					      <th scope="col">Title</th>
+					      <th class = "text-center" scope="col">Situation</th>
+					      <th class="text-center" scope="col">Change</th>
+					    </tr>
+					  </thead>
+					  <tbody class="countOf">
+					  </tbody>
+					</table>
+				</div>	
+			</div></br>
+			<!--underlist-->
+			<div class="row" align="center">
+				<div class="col">
+					<table class="table table-striped listData">
+					  <thead>
+					    <tr>
+					      <th style="text-align: left !important;" class="totalNumber" scope="col"></th>
+					    </tr>
+					  </thead>
+					  <tbody class="listElementCount">
+					  </tbody>
+					</table>
+				</div>	
+			</div>	
+		</div>
+	</body>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="jq.js"></script>
+</html>
